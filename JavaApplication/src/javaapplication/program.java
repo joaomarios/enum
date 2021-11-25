@@ -2,6 +2,7 @@ package javaapplication;
 
 import entidades.order;
 import enums.orderStatus;
+
 import java.util.Date;
 
 public class program {
@@ -11,7 +12,7 @@ public class program {
         System.out.println(Order);
         orderStatus os1 = orderStatus.entregue;
         orderStatus os2 = orderStatus.valueOf("entregue");
-        System.out.println(os1);
+
         System.out.println(os2);
     }
 }
